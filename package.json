@@ -1,0 +1,28 @@
+{
+  "name": "three-test",
+  "version": "0.0.1",
+  "dependencies": {
+    "three": "^0.94.0",
+    "three-collada-loader": "0.0.1",
+    "webpack": "^4.15.1"
+  },
+  "private": true,
+  "description": "first three.js project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "three"
+  ],
+  "author": "SunriseFox",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "three-orbit-controls": "^82.1.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

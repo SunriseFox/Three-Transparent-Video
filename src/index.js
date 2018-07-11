@@ -41,7 +41,7 @@ class AlphaVideoMaterial extends THREE.ShaderMaterial{
   }
 
   update() {
-    if (video.readyState === video.HAVE_ENOUGH_DATA && this.videoTexture) {
+    if (this.video.readyState === this.video.HAVE_ENOUGH_DATA && this.videoTexture) {
         this.videoTexture.needsUpdate = true;
     }
   }
